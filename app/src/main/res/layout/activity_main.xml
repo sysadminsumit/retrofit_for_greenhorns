@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.retrofitparsing.MainActivity"
+    android:layout_marginBottom="16dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Earthquake Activity"
+        android:background="@color/colorHeader"
+        android:textColor="@android:color/holo_purple"
+        android:gravity="center_horizontal"
+        android:textSize="32sp"
+
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set The time Period"
+        android:textSize="25sp"
+        android:background="@color/colorHeader2"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="24sp"
+
+
+            android:id="@+id/text1"
+            android:gravity="center"
+            android:onClick="date1"
+            android:textColor="@android:color/black"
+            android:layout_margin="8dp"
+            android:background="@color/colorHeader"
+
+            />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="TO"
+            android:textSize="24sp"
+            android:textColor="@color/colorHeader2"
+
+
+            android:gravity="center"
+            android:id="@+id/text2"
+
+            />
+        <TextView
+            android:layout_width="120dp"
+            android:background="@color/colorHeader"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:onClick="date2"
+            android:textSize="24sp"
+
+            android:id="@+id/text3"
+
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Check Now"
+        android:onClick="galpo"
+        android:background="@color/colorHeader2"
+        android:textColor="@android:color/white"
+        />
+
+</LinearLayout>
