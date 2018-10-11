@@ -5,7 +5,7 @@ import android.app.Application;
 /**
  * Created by Debopam Sikder on 8/6/2017.
  */
-
+//updated by amitc8250
 public class ApplicationClass extends Application {
     private static ApplicationClass applicationClass;
 

@@ -7,4 +7,5 @@
     <string name="alert.common.suggestion">Network timeout. Please try again after some time.</string>
     <string name="alert.network.ssl.error"></string>
     <string name="alert.network.no.response.from.server"/>
+    <string name="check_now">Check Now</string>
 </resources>
