@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RetrofitParsing_new.iml" filepath="$PROJECT_DIR$/RetrofitParsing_new.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofit_for_greenhorns.iml" filepath="$PROJECT_DIR$/retrofit_for_greenhorns.iml" />
     </modules>
   </component>
 </project>
