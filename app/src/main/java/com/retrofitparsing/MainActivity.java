@@ -20,12 +20,11 @@ import com.retrofitparsing.retrofit.exception.BaseException;
 
 public class MainActivity extends AppCompatActivity {
      private  TextView dateView,dateView1,t;
-    private Calendar calendar;
-    ProgressDialog progressDialog;
+    //ProgressDialog progressDialog;
     private  int year,month,day;
     boolean z=false;
     int k=1;
-    RetrofitRepository retrofitRepository;
+    //RetrofitRepository retrofitRepository;
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
         t=(TextView)findViewById(R.id.text);
         dateView=(TextView)findViewById(R.id.text1);
         dateView1=(TextView)findViewById(R.id.text3);
-        calendar=Calendar.getInstance();
-        year=calendar.get(Calendar.YEAR);
-        month=calendar.get(Calendar.MONTH);
-        day=calendar.get(Calendar.DAY_OF_MONTH);
+        Calendar calendar = Calendar.getInstance();
+        year= calendar.get(Calendar.YEAR);
+        month= calendar.get(Calendar.MONTH);
+        day= calendar.get(Calendar.DAY_OF_MONTH);
         showDate(year,month,day);
         dateView1.setText(dateView.getText().toString());
     }

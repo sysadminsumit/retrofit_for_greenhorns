@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * Created by Nilagnik on 24-09-2017.
  */
-
+//updated by sumit
 public class NotesAdapter extends ArrayAdapter<Data_class> {
 
     private List<Data_class> noteList;

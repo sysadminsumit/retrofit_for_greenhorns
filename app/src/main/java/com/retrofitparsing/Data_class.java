@@ -5,7 +5,7 @@ package com.retrofitparsing;
 /**
  * Created by Nilagnik on 24-09-2017.
  */
-//updated by amitc8250
+//updated by sumit
 public class Data_class {
 
     private String title = "";

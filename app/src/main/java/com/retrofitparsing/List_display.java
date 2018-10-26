@@ -1,5 +1,6 @@
 package com.retrofitparsing;
 
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
@@ -23,10 +24,10 @@ import java.util.List;
 /**
  * Created by Nilagnik on 24-09-2017.
  */
-
+//updated by sumit
 public class List_display extends AppCompatActivity implements View.OnClickListener {
     ListView listView;
-    List<List_display> like;
+    //List<List_display> like;
     RetrofitRepository retrofitRepository;
     ProgressDialog progressDialog;
     ArrayList<Data_class> dy=new ArrayList<Data_class>();
@@ -111,7 +112,7 @@ public class List_display extends AppCompatActivity implements View.OnClickListe
 
     }*/
     static  String getDateString(long millis){
-        SimpleDateFormat format=new SimpleDateFormat("EEE, d MMM yyyy 'at' HH:mm:ss z");
+        @SuppressLint("SimpleDateFormat") SimpleDateFormat format=new SimpleDateFormat("EEE, d MMM yyyy 'at' HH:mm:ss z");
         return format.format(millis);
     }
 }
